@@ -52,91 +52,10 @@
     <tool lib="4" name="Register"/>
   </toolbar>
   <circuit name="controller">
-    <a name="appearance" val="custom"/>
+    <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="controller"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="2048000.0"/>
-    <appear>
-      <rect height="3" stroke="none" width="10" x="50" y="59"/>
-      <rect height="3" stroke="none" width="10" x="50" y="79"/>
-      <rect height="4" stroke="none" width="10" x="50" y="98"/>
-      <rect height="3" stroke="none" width="10" x="50" y="119"/>
-      <rect height="4" stroke="none" width="10" x="50" y="138"/>
-      <rect height="4" stroke="none" width="10" x="50" y="158"/>
-      <rect height="4" stroke="none" width="10" x="50" y="178"/>
-      <rect height="4" stroke="none" width="10" x="50" y="198"/>
-      <rect height="3" stroke="none" width="10" x="50" y="219"/>
-      <rect height="4" stroke="none" width="10" x="50" y="238"/>
-      <rect height="4" stroke="none" width="10" x="50" y="258"/>
-      <rect height="4" stroke="none" width="10" x="50" y="278"/>
-      <rect height="4" stroke="none" width="10" x="50" y="298"/>
-      <rect height="4" stroke="none" width="10" x="50" y="318"/>
-      <rect height="4" stroke="none" width="10" x="50" y="338"/>
-      <rect height="4" stroke="none" width="10" x="50" y="358"/>
-      <rect height="4" stroke="none" width="10" x="50" y="378"/>
-      <rect height="4" stroke="none" width="10" x="50" y="398"/>
-      <rect height="3" stroke="none" width="10" x="260" y="59"/>
-      <rect height="4" stroke="none" width="10" x="260" y="78"/>
-      <rect height="3" stroke="none" width="10" x="260" y="99"/>
-      <rect height="4" stroke="none" width="10" x="260" y="118"/>
-      <rect height="4" stroke="none" width="10" x="260" y="138"/>
-      <rect height="4" stroke="none" width="10" x="260" y="158"/>
-      <rect height="4" stroke="none" width="10" x="260" y="178"/>
-      <rect height="20" stroke="none" width="200" x="60" y="410"/>
-      <rect fill="none" height="380" stroke="#000000" stroke-width="2" width="200" x="60" y="49"/>
-      <text dominant-baseline="alphabetic" fill="#ffffff" font-family="Courier 10 Pitch" font-size="14" font-weight="bold" text-anchor="middle" x="160" y="424">controller</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="124">mem_r_ready</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="364">c_w_addr_1</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="404">c_w_addr_3</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="164">c_r_addr_1</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="164">c_r_ready</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="64">mem_read_v</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="124">mem_w_data</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="144">mem_w_addr</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="244">c_w_v</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="64">reset</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="384">c_w_addr_2</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="84">mem_read_addr</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="104">c_r_v</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="324">c_w_data_3</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="104">mem_write_v</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="144">c_r_addr_0</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="184">c_r_addr_2</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="84">clk</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="344">c_w_addr_0</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="204">c_r_addr_3</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="304">c_w_data_2</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="264">c_w_data_0</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="end" x="255" y="184">c_w_ready</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="284">c_w_data_1</text>
-      <text dominant-baseline="alphabetic" fill="#404040" font-family="Courier 10 Pitch" font-size="12" text-anchor="start" x="65" y="224">mem_w_ready</text>
-      <circ-anchor facing="east" x="270" y="60"/>
-      <circ-port dir="in" pin="1330,480" x="50" y="100"/>
-      <circ-port dir="in" pin="1460,1210" x="50" y="240"/>
-      <circ-port dir="in" pin="190,370" x="50" y="60"/>
-      <circ-port dir="in" pin="190,400" x="50" y="80"/>
-      <circ-port dir="in" pin="1920,1260" x="50" y="260"/>
-      <circ-port dir="in" pin="1920,1300" x="50" y="280"/>
-      <circ-port dir="in" pin="1920,1340" x="50" y="300"/>
-      <circ-port dir="in" pin="1920,1380" x="50" y="320"/>
-      <circ-port dir="in" pin="1960,1450" x="50" y="340"/>
-      <circ-port dir="in" pin="1960,1470" x="50" y="360"/>
-      <circ-port dir="in" pin="1960,1490" x="50" y="380"/>
-      <circ-port dir="in" pin="1960,1510" x="50" y="400"/>
-      <circ-port dir="in" pin="2000,500" x="50" y="120"/>
-      <circ-port dir="in" pin="2080,670" x="50" y="140"/>
-      <circ-port dir="in" pin="2080,690" x="50" y="160"/>
-      <circ-port dir="in" pin="2080,710" x="50" y="180"/>
-      <circ-port dir="in" pin="2080,730" x="50" y="200"/>
-      <circ-port dir="in" pin="2400,1050" x="50" y="220"/>
-      <circ-port dir="out" pin="1650,1820" x="270" y="160"/>
-      <circ-port dir="out" pin="2250,1300" x="270" y="120"/>
-      <circ-port dir="out" pin="2250,1470" x="270" y="140"/>
-      <circ-port dir="out" pin="2380,550" x="270" y="60"/>
-      <circ-port dir="out" pin="2440,690" x="270" y="80"/>
-      <circ-port dir="out" pin="2460,1150" x="270" y="100"/>
-      <circ-port dir="out" pin="830,1850" x="270" y="180"/>
-    </appear>
     <comp lib="0" loc="(1000,560)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="consumer_rw_and_channel_serving_consumer_success"/>
