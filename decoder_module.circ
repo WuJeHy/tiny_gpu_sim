@@ -287,10 +287,11 @@
       <a name="inputs" val="4"/>
     </comp>
     <comp lib="1" loc="(530,860)" name="OR Gate"/>
-    <comp lib="1" loc="(550,1080)" name="AND Gate">
+    <comp lib="1" loc="(550,1080)" name="OR Gate">
       <a name="size" val="30"/>
     </comp>
     <comp lib="1" loc="(550,780)" name="OR Gate">
+      <a name="inputs" val="3"/>
       <a name="size" val="30"/>
     </comp>
     <comp lib="2" loc="(120,1270)" name="Multiplexer">
@@ -444,7 +445,9 @@
     <wire from="(410,1090)" to="(520,1090)"/>
     <wire from="(410,830)" to="(410,1060)"/>
     <wire from="(410,830)" to="(470,830)"/>
-    <wire from="(460,350)" to="(460,880)"/>
+    <wire from="(460,350)" to="(460,780)"/>
+    <wire from="(460,780)" to="(460,880)"/>
+    <wire from="(460,780)" to="(520,780)"/>
     <wire from="(460,880)" to="(460,940)"/>
     <wire from="(460,880)" to="(480,880)"/>
     <wire from="(460,940)" to="(470,940)"/>
