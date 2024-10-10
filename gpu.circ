@@ -55,7 +55,7 @@
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="gpu_power_by_wujehy"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="2048000.0"/>
+    <a name="simulationFrequency" val="32.0"/>
     <comp lib="0" loc="(1000,650)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="reset"/>
